@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreya 舒瑞亞美妍</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Shreya Logo" class="logo" />
+    <h1>Shreya 舒瑞亞美妍</h1>
+    <p class="subtitle">給你的肌膚，最舒服的呵護</p>
+
+    <div class="buttons">
+      <a href="https://lin.ee/MWylz8n" target="_blank" class="btn line">LINE 客服</a>
+      <button class="btn" onclick="togglePrice()">體驗項目</button>
+      <a href="https://forms.gle/6fJcozKikPvsKt5o8" target="_blank" class="btn">立即預約</a>
+    </div>
+
+    <div id="priceList" class="price-list" style="display: none;">
+      <img src="price-list.jpg" alt="價目表">
+    </div>
+
+    <footer>
+      <p>電話：（03）4826871</p>
+      <p>地址：桃園市楊梅區四維路149號</p>
+    </footer>
+  </div>
+
+  <script>
+    function togglePrice() {
+      const priceList = document.getElementById("priceList");
+      priceList.style.display = priceList.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</body>
+</html>
