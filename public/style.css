@@ -1,0 +1,82 @@
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('background-for-style-css.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #e6f0fa;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  max-width: 160px;
+  height: auto;
+  margin: 0 auto 15px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.button.green {
+  background-color: #06c755;
+}
+
+.button.green:hover {
+  background-color: #059c45;
+}
+
+.button.blue {
+  background-color: #1e90ff;
+}
+
+.button.blue:hover {
+  background-color: #187bcd;
+}
+
+.contact-info {
+  font-size: 14px;
+  margin-top: 16px;
+  color: #333;
+}
