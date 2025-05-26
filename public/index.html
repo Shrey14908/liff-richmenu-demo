@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <title>Shreya LIFF 測試</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreya 美妍平台</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>歡迎光臨 Shreya 美妍平台！這是測試版頁面。</h1>
+  <div class="container">
+    <h1 class="brand">Shreya 美妍平台</h1>
+    <p class="tagline">給你的肌膚，最舒適的呵護</p>
+    <div class="buttons">
+      <a href="https://line.me/R/ti/p/@610hprfc" class="btn">LINE 預約我</a>
+      <a href="#booking" class="btn secondary">預約表單</a>
+    </div>
+
+    <form id="booking" class="booking-form" onsubmit="submitBooking(event)">
+      <h2>線上預約</h2>
+      <input type="text" placeholder="姓名" required>
+      <input type="tel" placeholder="聯絡電話" required>
+      <input type="date" required>
+      <textarea placeholder="備註（例如：想清粉刺）"></textarea>
+      <button type="submit">送出預約</button>
+      <p class="notice">* 這是示意表單，實際預約請用 LINE 聯絡我們。</p>
+    </form>
+
+    <footer>© Shreya Beauty</footer>
+  </div>
+  <script>
+    function submitBooking(e) {
+      e.preventDefault();
+      alert("已收到您的預約！我們會盡快與您聯繫～");
+    }
+  </script>
 </body>
 </html>
