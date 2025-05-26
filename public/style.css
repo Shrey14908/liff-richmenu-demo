@@ -1,0 +1,11 @@
+
+body {
+  background-image: url('shreya_background_transparent_v2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
