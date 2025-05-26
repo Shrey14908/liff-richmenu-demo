@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: url("shreya_background_transparent_v2.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 0.5rem 0 1rem;
+  font-size: 1rem;
+}
+
+.buttons {
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  margin: 0.3rem;
+  font-weight: bold;
+}
+
+.green {
+  background-color: #1db954;
+}
+
+.blue {
+  background-color: #1e90ff;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #222;
+}
